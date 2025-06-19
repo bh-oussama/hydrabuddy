@@ -1,0 +1,37 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
+
+linter:
+  rules:
+    always_put_required_named_parameters_first: error
+    always_require_non_null_named_parameters: warning
+    always_specify_types: warning
+    annotate_overrides: error
+    annotate_redeclares: warning
+    avoid_as: warning
+    avoid_dynamic_calls: error
+    avoid_init_to_null: warning
+    avoid_print: info
+    avoid_empty_else: warning
+    avoid_return_types_on_setters: error
+    avoid_returning_null_for_void: error
+    avoid_shadowing_type_parameters: error
+    avoid_setters_without_getters: error
+    avoid_type_to_string: error
+    avoid_unstable_final_fields: error
+    avoid_unnecessary_containers: error
+    avoid_void_async: error
+    avoid_unused_constructor_parameters: error
+    await_only_futures: error
+    camel_case_extensions: error
+    camel_case_types: error
+    cancel_subscriptions: error
+    close_sinks: error
+    implementation_imports: error
+    prefer_relative_imports: warning
+    throw_in_finally: error
+    unnecessary_await_in_return: warning
+    unnecessary_async: warning

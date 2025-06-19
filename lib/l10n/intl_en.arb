@@ -1,0 +1,360 @@
+{
+  "@@locale": "en",
+  "home": "Home",
+  "insights": "Insights",
+  "settings": "Settings",
+  "goodMorning": "Good morning, {name} 👋",
+  "@goodMorning": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingWeatherData": "Loading weather data...",
+  "couldNotLoadWeather": "Could not load weather.",
+  "goal": "Goal",
+  "celsius": "Celsius",
+  "celsiusAbbrev": "C",
+  "celsiusAmount": "{amount, plural, other{{amount} C} zero{0 C} one{1 C}}",
+  "@celsiusAmount": {
+    "description": "celsiusAmount",
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "fahrenheit": "Fahrenheit",
+  "fahrenheitAbbrev": "F",
+  "fahrenheitAmount": "{amount, plural, other{{amount} F} zero{0 F} one{1 F}}",
+  "@fahrenheitAmount": {
+    "description": "fahrenheitAmount",
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "kg": "Kg",
+  "kgAmount": "{amount, plural, other{{amount} kg} zero{0 kg} one{1 kg}}",
+  "@kgAmount": {
+    "description": "kg",
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "pounds": "Pounds",
+  "lbAmount": "{amount, plural, other{{amount} lbs} zero{0 lb} one{1 lb}}",
+  "@lbAmount": {
+    "description": "lb",
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "liter": "Liter",
+  "literAbbrev": "L",
+  "milliliter": "Milliliter",
+  "milliliterAbbrev": "mL",
+  "amountInML": "{amount}mL",
+  "@amountInML": {
+    "description": "Amount in milliliters",
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "ounce": "Ounce",
+  "ounceAbbrev": "Oz",
+  "amountInOunce": "{amount}oz",
+  "@amountInOunce": {
+    "description": "Amount in Ounces",
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "leftToday": "left today",
+  "progress": "Progress",
+  "drunkAmount": "Drunk: {amount}",
+  "@drunkAmount": {
+    "description": "drunkAmount",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "onTrack": "On Track",
+  "quickAdd": "Quick Add",
+  "required": "Required",
+  "invalidValue": "Invalid value",
+  "customAmount": "Custom Amount",
+  "enterAmount": "Enter amount",
+  "recentIntakes": "Recent Intakes",
+  "noIntakesYet": "No intakes yet",
+  "startTrackingYourWaterIntake": "Start tracking your water intake!",
+  "today": "Today",
+  "week": "Week",
+  "month": "Month",
+  "yourInsights": "Your Insights",
+  "monthlySummary": "Monthly Summary",
+  "totalVolume": "Total Volume",
+  "totalIntakes": "Total Intakes",
+  "averagePerDay": "Average Per Day",
+  "averagePerDayAbbreviation": "Avg/Day",
+  "todayTotal": "Today's Total",
+  "averageIntake": "Average Intake",
+  "failedToLoadMonthlyData": "Failed to load monthly data",
+  "noDataThisMonth": "No data this month",
+  "startTrackingToSeeYourMonthlyProgress": "Start tracking to see your monthly progress!",
+  "failedToLoadTodayData": "Failed to load today's data",
+  "noIntakesToday": "No intakes today",
+  "startTrackingToSeeYourWeeklyProgress": "Start tracking to see your weekly progress!",
+  "failedToLoadWeeklyData": "Failed to load weekly data",
+  "noDataThisWeek": "No data this week",
+  "profileInformation": "Profile Information",
+  "name": "Name",
+  "age": "Age",
+  "yourNameHelpsPersonalizeYourExperience": "Your name helps personalize your experience.",
+  "pleaseEnterAValidAge": "Please enter a valid age",
+  "forAccurateHydrationAdvice": "For accurate hydration advice.",
+  "usedToCalculateYourDailyIntake": "Used to calculate your daily intake.",
+  "gender": "Gender",
+  "femaleStatus": "Female Status",
+  "male": "Male",
+  "female": "Female",
+  "weight": "Weight",
+  "genderHelpsTailorHydrationRecommendations": "Gender helps tailor hydration recommendations.",
+  "femaleStatusHelpsTailorHydrationRecommendations": "Female status helps tailor hydration recommendations.",
+  "pleaseEnterAValidWeight": "Please enter a valid weight",
+  "saveSettings": "Save Settings",
+  "appearance": "Appearance",
+  "darkMode": "Dark Mode",
+  "switchBetweenLightAndDarkThemes": "Switch between light and dark themes",
+  "noCustomVolumes": "No custom volumes",
+  "addYourPreferredIntakeVolumes": "Add your preferred intake volumes",
+  "addNewVolume": "Add New Volume",
+  "editVolume": "Edit Volume {name}",
+  "@editVolume": {
+    "description": "editVolume",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "Cancel",
+  "add": "Add",
+  "settingsSavedSuccessfully": "Settings saved successfully!",
+  "volumeDeleted": "Volume deleted",
+  "namePlaceholder": "Name (e.g., Coffee Cup)",
+  "volumeMilliliterPlaceholder": "Volume (mL)",
+  "volumeOuncePlaceholder": "Volume (Oz)",
+  "physicalActivityLevel": "Physical Activity Level",
+  "weightUnit": "Weight Unit",
+  "volumeUnit": "Volume Unit",
+  "temperatureUnit": "Temperature Unit",
+  "healthStatus": "Health Status",
+  "preferences": "Preferences",
+  "quickAddVolumes": "Quick Add Volumes",
+  "configureYourPreferredIntakeVolumesForQuickAccess": "Configure your preferred intake volumes for quick access",
+  "selectYourCurrentHealthStatusForMoreAccurateHydrationRecommendations": "Select your current health status for more accurate hydration recommendations",
+  "howActiveAreYouOnATypicalDay": "How active are you on a typical day?",
+  "chooseYourPreferredWeightUnit": "Choose your preferred weight unit.",
+  "chooseYourPreferredVolumeUnit": "Choose your preferred volume unit.",
+  "chooseYourPreferredTemperatureUnit": "Choose your preferred temperature unit.",
+  "weeklyProgress": "Weekly Progress",
+  "monthlyProgress": "Monthly Progress",
+  "enterYourName": "Enter your name",
+  "enterName": "Enter name",
+  "enterVolume": "Enter volume",
+  "personalInfo": "Personal Information",
+  "personalInfoDescription": "Help us personalize your hydration experience",
+  "continueText": "Continue",
+  "pregnantOrBreastfeeding": "Are you pregnant or breastfeeding?",
+  "pregnant": "Pregnant",
+  "breastfeeding": "Breastfeeding",
+  "none": "None",
+  "enterYourAge": "Enter your age",
+  "enterYourWeight": "Enter your weight",
+  "no": "No",
+  "whatShouldICallYou": "What should I call you?",
+  "whatIsYourPhysicalActivityLevel": "What is your physical activity level?",
+  "pleaseSelectALevelThatMatchesYourDailyRoutine": "Please select a level that matches your daily routine",
+  "allowLocalization": "Allow localization",
+  "allowLocalizationDescription1": "A hot weather = drinking more water",
+  "allowLocalizationDescription2": "Letting me access location would allow me to check weather status and update water intake objectives accordingly!",
+  "allowLocalizationFailed": "Localization permissions are not granted.",
+  "allowLocalizationPleaseAllow": "Please allow localization!",
+  "trackWaterIntake": "Track Water Intake",
+  "readyDescription": "You are all set to start tracking your water intake and stay hydrated!",
+  "readyHeadline": "You're all set!",
+  "readyMotivation": "Staying hydrated boosts your energy and focus!",
+  "glassOfWater": "Glass of Water",
+  "somethingWentWrong": "Something went wrong",
+  "pleaseTryAgain": "Please try again",
+  "couldNotLoadUserData": "Could not load user data",
+  "failedToLoadWeatherData": "Failed to load weather data. Please try again!",
+  "selectAnIcon": "Select an icon",
+  "failedToCalculateWaterIntakeGoal": "Failed to calculate water intake goal",
+  "remainingValue": "Remaining: {value}",
+  "@remainingValue": {
+    "description": "remainingValue",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "goalReached": "Goal reached",
+  "extraIntakeInMilliliter": "+{value}mL",
+  "@extraIntakeInMilliliter": {
+    "description": "extraIntakeInMilliliter",
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "extraIntakeInOunce": "+{value}Oz",
+  "@extraIntakeInOunce": {
+    "description": "extraIntakeInOunce",
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "illness": "Illness",
+  "heartDisease": "Heart Disease",
+  "diabetes": "Diabetes",
+  "feverOrDiarrhea": "Fever or Diarrhea",
+  "healthy": "Healthy",
+  "healthStatusDescription": "Tell me about your current health so I can support your hydration journey.",
+  "pleaseSelectHealthStatus": "Please select your health status",
+  "goalMet": "Goal met!",
+  "leftToGoal": "Left to goal: {value}",
+  "@leftToGoal": {
+    "description": "leftToGoal",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "todayIntakes": "Today's Intakes",
+  "greatJobGoalReached": "Great job! You've reached your goal today.",
+  "keepGoingGoalNotReached": "Keep going! Stay hydrated and reach your goal.",
+  "xHours": "{count, plural, other{{count} hours} zero{0 hours} one{1 hour}}",
+  "@xHours": {
+    "description": "X hours",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "xMinutes": "{count, plural, other{{count} minutes} zero{0 minutes} one{1 minute}}",
+  "@xMinutes": {
+    "description": "X minutes",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "lastIntakeSince": "Last Intake: {time} ago",
+  "@lastIntakeSince": {
+    "description": "Last intake since",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sedentary": "Sedentary",
+  "sedentaryDescription": "Mostly sitting throughout the day with little to no physical activity.",
+  "light": "Light",
+  "dark": "Dark",
+  "system": "System",
+  "lightDescription": "Occasional movement like walking or standing but no structured exercise.",
+  "moderate": "Moderate",
+  "moderateDescription": "Regular movement including some workouts or an active lifestyle.",
+  "highlyActive": "Highly Active",
+  "highlyActiveDescription": "Consistent physical effort with intense exercise or physically demanding work.",
+  "extremelyActive": "Extremely Active",
+  "extremelyActiveDescription": "Intense daily workouts or physically demanding job requiring high endurance.",
+  "thisWeek": "This Week",
+  "total": "Total",
+  "goalMetOnDays": "Goal Met on Days",
+  "bestStreak": "Best Streak",
+  "compareToLastWeek": "{value} compared to last week",
+  "metGoalOnDays": "{count, plural, zero{Goal was not met} one{Met Goal on 1 day} other{Met Goal on {count} days}}",
+  "@metGoalOnDays": {
+    "description": "metGoalOnDays",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "stayHydrated": "Stay hydrated! Try to hit your daily goal more often.",
+  "comparedToYesterday": "compared to yesterday",
+  "thisMonth": "This Month",
+  "partial": "Partial",
+  "customizeYourHydrationExperience": "Customize your hydration experience",
+  "getStartedCaption": "Stay hydrated and track your water intake effortlessly. Let’s build a healthier habit together!",
+  "getStarted": "Get Started",
+  "themeMode": "Theme Mode",
+  "chooseYourPreferredThemeAppearance": "Choose your preferred theme appearance",
+  "welcomeX": "Welcome, {name}",
+  "@welcomeX": {
+    "description": "welcomeX",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "userNotFound": "User not found",
+  "bestDayWithValue": "Best: {day} with {value}",
+  "@bestDayWithValue": {
+    "description": "bestDayWithValue",
+    "placeholders": {
+      "day": {
+        "type": "DateTime",
+        "format": "EEEE"
+      },
+      "value": {
+        "type": "double",
+        "format": "percentPattern"
+      }
+    }
+  },
+  "lowestDayWithValue": "Lowest: {day} with {value}",
+  "@lowestDayWithValue": {
+    "description": "lowestDayWithValue",
+    "placeholders": {
+      "day": {
+        "type": "DateTime",
+        "format": "EEEE"
+      },
+      "value": {
+        "type": "double",
+        "format": "percentPattern"
+      }
+    }
+  }
+}
