@@ -3,7 +3,7 @@
 A modern Flutter mobile application for tracking daily water intake, designed to help users maintain proper hydration habits with beautiful UI and comprehensive insights.
 
 > **⚠️ Demo Project Notice**  
-> This is a portfolio/demonstration project created for educational and showcase purposes only. It is not intended for commercial use or distribution.
+> This is a portfolio/demonstration project created for educational and showcase purposes only.
 
 [<img width="231" height="500" alt="HydraBuddy - Screenshot" src="https://github.com/user-attachments/assets/deda2a83-5566-4fc5-908a-c4be3ee95468" />](https://drive.google.com/file/d/1rjJrFwbXnYfmVYkkWDpzjhuxr6hpbCmB/view?usp=sharing)
 
